@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- BootstrapCDN CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styleContacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <!--navbar-fixed-top-->
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img title="Rusia 2018" src="http://www.balonazos.com/wp-content/uploads/2015/11/RUSIA2018.png" />
+                    </a>
+                </div>
+
+                <div id="navbar" class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" class="dropdown-toggle">Inicio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Sede<span class="caret"></span></a></li>
+
+                        <li><a href="partido.html">Partidos</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Grupos A<span class="caret"></span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Grupos B<span class="caret"></span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Grupos C<span class="caret"></span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Grupos D<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Polonia</a></li>
+                                <li><a href="#">Senegal</a></li>
+                                <li><a href="selecciones\colombia\colombia.html">Colombia</a></li>
+                                <li><a href="#">Japón</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <form class="contact_form" action="#" id="contact_form" runat="server">
+        <div>
+            <ul>
+                <li>
+                    <h2>Contactos</h2>
+                    <span class="required_notification">* Datos requeridos</span>
+                </li>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Carlos Rosendo Gutierrez" required />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="nombre@algo.com" required />
+                    <span class="form_hint">Formato correcto: "nombre@algo.com"</span>
+                </li>
+                <li>
+                    <label for="website">Sitio web:</label>
+                    <input type="url" name="website" placeholder="http://algo.com" required pattern="(http|https)://.+" />
+                    <span class="form_hint">Formato correcto: "http://algo.com"</span>
+                </li>
+                <li>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" cols="40" rows="6" required></textarea> Ingeniería de Sistemas Programación Web – Juan Sebastian Sanchez Prada UFPS
+                </li>
+                <li>
+                    <button class="submit" type="submit">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="container"></div>
+        <p class="text-muted">Programación Aplicaciones Web - 2018</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
